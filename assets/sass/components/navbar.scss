@@ -1,0 +1,17 @@
+.main-header .navbar-dark .navbar-brand {
+   width: 100%;
+   img{
+    width: 120px;
+   }   
+}
+
+.navbar-dark .navbar-nav .active> .nav-link, a.nav-link.active  {
+    color: $color-primary !important;
+    border-bottom: 3px solid $color-primary;
+}
+
+
+a.nav-link:hover {
+    color: $color-primary !important;
+    border-bottom: 3px solid $color-primary;
+}
